@@ -1,9 +1,9 @@
 {
   "name": "feedback-app",
   "version": "0.1.0",
-  "homepage": "https://NoaShapira5.github.io/feedback-app",
   "private": true,
-  "proxy": "http://localhost:5000",
+  "homepage": "https://NoaShapira5.github.io/feedback-app",
+  "proxy": "http://localhost:5000/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -46,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
